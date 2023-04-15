@@ -3,7 +3,7 @@ import "./App.css";
 import React, { useState, useEffect } from "react";
 
 function App() {
-  const domain = "http://localhost:8000/get-all-data";
+  const domain = "https://web-api-orrl.onrender.com";
   const [values, setValues] = useState([]);
 
   useEffect(() => {
